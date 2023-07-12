@@ -1762,7 +1762,7 @@ if (typeof jQuery === "undefined") {
           .emulateTransitionEnd(Tooltip.TRANSITION_DURATION)
       : complete();
 
-    this.hoverState = null;
+    thisState = null;
 
     return this;
   };

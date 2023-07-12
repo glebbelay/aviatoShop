@@ -11,8 +11,8 @@ function HomePage() {
     <div>
         <Slider />
         <ProductCategory />
-        <section class="products section bg-gray">
-	        <div class="container">
+        <section className="products section bg-gray">
+	        <div className="container">
                 <TrendyProducts />
                 <Product />
             </div>

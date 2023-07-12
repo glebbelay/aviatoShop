@@ -25,6 +25,7 @@ import FaqPage from "./pages/FaqPage";
 import ShopPage from "./pages/ShopPage";
 import Page404 from "./pages/Page404";
 import HomePage from "./pages/HomePage";
+import ProductSingle from "./pages/ProductSingle";
 // Styles end
 
 class App extends React.Component {
@@ -42,6 +43,7 @@ class App extends React.Component {
               <Route path="/faq" element = {<FaqPage />} />
               <Route path="/shop" element = {<ShopPage />} />
               <Route path="/404" element = {<Page404 />} />
+              <Route path="/product-single" element = {<ProductSingle/>} />
             </Routes>
           
         </Router> 

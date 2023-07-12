@@ -8,10 +8,12 @@ function ShopPage() {
     <div>
         
         <PageHeader />
-        <section class="products section">
-            <div class="container"> 	
+        <section className="products section">
+            <div className="container"> 	
+              <div className="row">
                 <Categories />
                 <Product />
+              </div>
             </div>
         </section>
     </div>
