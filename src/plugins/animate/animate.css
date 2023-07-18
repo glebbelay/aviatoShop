@@ -1579,7 +1579,7 @@
   }
 
   to {
-    opacity: 1;
+    opacity: 1!important;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
@@ -1602,6 +1602,28 @@
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+
+.hero-slider .slider-item p {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.hero-slider .slider-item h1 {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+
+.hero-slider .slider-item a {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 @-webkit-keyframes fadeInUpBig {

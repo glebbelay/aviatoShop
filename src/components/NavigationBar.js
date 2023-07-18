@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../scss/templates/_navigation.scss";
 import "../scss/home.scss";
 import "../scss/_common.scss";
@@ -71,9 +71,6 @@ function NavigationBar() {
                   </div>
                 </div>
               </li>
-
- 
-
             </ul>
           </div>
         </div>

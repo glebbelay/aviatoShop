@@ -5,14 +5,12 @@ import {
   Route,
   Link,
   Routes,
-} from 'react-router-dom';
+} from "react-router-dom";
 import Header from "./components/Header";
 import NavigationBar from "./components/NavigationBar";
-import ScrollBar from "./components/ScrollBar";
 import About from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import ContactUs from "./pages/ContactUs";
-import Faq from "./components/FAQComponents/Faq";
 
 // Styles start
 import "./plugins/themefisher-font/style.css";
@@ -35,19 +33,17 @@ class App extends React.Component {
         <Header />
         <NavigationBar />
         <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about-as" element={<About />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/faq" element={<FaqPage />} />
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/404" element={<Page404 />} />
+            <Route path="/product-single" element={<ProductSingle />} />
+          </Routes>
+        </Router>
 
-            <Routes>
-              <Route path="/" element = {<HomePage />} />
-              <Route path="/about-as" element = {<About />} />
-              <Route path="/contact" element = {<ContactUs />} />
-              <Route path="/faq" element = {<FaqPage />} />
-              <Route path="/shop" element = {<ShopPage />} />
-              <Route path="/404" element = {<Page404 />} />
-              <Route path="/product-single" element = {<ProductSingle/>} />
-            </Routes>
-          
-        </Router> 
-   
         <Footer />
       </div>
     );
