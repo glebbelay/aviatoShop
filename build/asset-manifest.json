@@ -1,10 +1,24 @@
 {
-  "files": {
-    "main.js": "/static/js/main.8dcaeda1.js",
-    "index.html": "/index.html",
-    "main.8dcaeda1.js.map": "/static/js/main.8dcaeda1.js.map"
-  },
-  "entrypoints": [
-    "static/js/main.8dcaeda1.js"
-  ]
+  "main.js": "static/js/main.4146dfa8.js",
+  "main.js.map": "static/js/main.4146dfa8.js.map",
+  "static\\media\\_common.scss": "static/media/_common.e4455dc6.scss",
+  "static\\media\\_navigation.scss": "static/media/_navigation.32a12ee4.scss",
+  "static\\media\\_products.scss": "static/media/_products.ded2ceed.scss",
+  "static\\media\\_slider.scss": "static/media/_slider.7977bb0a.scss",
+  "static\\media\\about.jpg": "static/media/about.ad24e33b.jpg",
+  "static\\media\\avater-1.jpg": "static/media/avater-1.ffa6ae94.jpg",
+  "static\\media\\category-1.jpg": "static/media/category-1.ecffb7c8.jpg",
+  "static\\media\\category-2.jpg": "static/media/category-2.a92d3d90.jpg",
+  "static\\media\\category-3.jpg": "static/media/category-3.e719820b.jpg",
+  "static\\media\\home.scss": "static/media/home.480d1fa5.scss",
+  "static\\media\\modal-product.jpg": "static/media/modal-product.9725ff71.jpg",
+  "static\\media\\product-1.jpg": "static/media/product-1.5b4a44ee.jpg",
+  "static\\media\\product-2.jpg": "static/media/product-2.df6f4225.jpg",
+  "static\\media\\product-3.jpg": "static/media/product-3.67c9fe6e.jpg",
+  "static\\media\\product-4.jpg": "static/media/product-4.546a159d.jpg",
+  "static\\media\\product-5.jpg": "static/media/product-5.73294011.jpg",
+  "static\\media\\product-6.jpg": "static/media/product-6.1200f043.jpg",
+  "static\\media\\slider-3.jpg": "static/media/slider-3.b8545735.jpg",
+  "static\\media\\style.scss": "static/media/style.1cbab782.scss",
+  "static\\media\\team-1.jpg": "static/media/team-1.c33f04dc.jpg"
 }

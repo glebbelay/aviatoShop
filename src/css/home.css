@@ -18,17 +18,17 @@
   position: relative;
   z-index: 999999;
 }
-.hero-area h1 {
+/* .hero-area h1 {
   font-size: 100px;
   font-weight: 700;
   margin-bottom: 15px;
   font-family: "Open Sans", sans-serif;
-}
-.hero-area p {
+} */
+/* .hero-area p {
   font-size: 20px;
   line-height: 32px;
   color: #f9f9f9;
-}
+} */
 
 .template-list {
   padding: 100px 0;

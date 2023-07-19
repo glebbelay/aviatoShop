@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../scss/templates/_navigation.scss";
 import "../scss/home.scss";
 import "../scss/_common.scss";
@@ -35,45 +35,17 @@ function NavigationBar() {
                 <a href="/shop">Shop</a>
               </li>
 
-              <li className="dropdown dropdown-slide">
-                <a
-                  href="#!"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                  data-hover="dropdown"
-                  data-delay="350"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Pages <span className="tf-ion-ios-arrow-down"></span>
-                </a>
-                <div className="dropdown-menu">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-6 mb-sm-3">
-                      <ul>
-                        <li className="dropdown-header">Introduction</li>
-                        <li role="separator" className="divider"></li>
-                        <li>
-                          <a href="contact">Contact Us</a>
-                        </li>
-                        <li>
-                          <a href="/about-as">About Us</a>
-                        </li>
-                        <li>
-                          <a href="404">404 Page</a>
-                        </li>
-                        <li>
-                          <a href="faq">FAQ</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+              <li className="dropdown ">
+                <a href="/contact">Contact Us</a>
               </li>
 
- 
+              <li className="dropdown ">
+                <a href="/about-as">About Us</a>
+              </li>
 
+              <li className="dropdown ">
+                <a href="/faq">FAQ</a>
+              </li>
             </ul>
           </div>
         </div>
