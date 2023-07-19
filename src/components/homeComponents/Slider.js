@@ -18,9 +18,9 @@ function Slider() {
       infinite: true,
       arrows: true,
       prevArrow:
-        "<button type='button' className='heroSliderArrow prevArrow tf-ion-chevron-left'></button>",
+        "<button type='button' class='heroSliderArrow prevArrow tf-ion-chevron-left'></button>",
       nextArrow:
-        "<button type='button' className='heroSliderArrow nextArrow tf-ion-chevron-right'></button>",
+        "<button type='button' class='heroSliderArrow nextArrow tf-ion-chevron-right'></button>",
       dots: true,
       autoplaySpeed: 5000,
       pauseOnFocus: false,
