@@ -31,16 +31,16 @@ function Footer() {
               </ul>
               <ul className="footer-menu text-uppercase">
                 <li>
-                  <a href="contact">CONTACT</a>
+                  <a href="contact">КОНТАКТЫ</a>
                 </li>
                 <li>
-                  <a href="shop">SHOP</a>
+                  <a href="shop">МАГАЗИН</a>
                 </li>
                 <li>
-                  <a href="pricing.html">Pricing</a>
+                  <a href="pricing.html">ЦЕНЫ</a>
                 </li>
                 <li>
-                  <a href="contact">PRIVACY POLICY</a>
+                  <a href="contact">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
                 </li>
               </ul>
             </div>

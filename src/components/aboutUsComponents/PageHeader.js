@@ -8,12 +8,12 @@ function PageHeader() {
           <div className="row">
             <div className="col-md-12">
               <div className="content">
-                <h1 className="page-name">About Us</h1>
+                <h1 className="page-name">О нас</h1>
                 <ol className="breadcrumb">
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">Главная</a>
                   </li>
-                  <li className="active">about us</li>
+                  <li className="active">О нас</li>
                 </ol>
               </div>
             </div>

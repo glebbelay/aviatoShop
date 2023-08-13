@@ -9,7 +9,7 @@ function NavigationBar() {
       <nav className="navbar navigation">
         <div className="container">
           <div className="navbar-header">
-            <h2 className="menu-title">Main Menu</h2>
+            <h2 className="menu-title">МЕНЮ</h2>
             <button
               type="button"
               className="navbar-toggle collapsed"
@@ -28,19 +28,19 @@ function NavigationBar() {
           <div id="navbar" className="navbar-collapse collapse text-center">
             <ul className="nav navbar-nav">
               <li className="dropdown ">
-                <a href="/">Home</a>
+                <a href="/">Главная</a>
               </li>
 
               <li className="dropdown ">
-                <a href="/shop">Shop</a>
+                <a href="/shop">МАГАЗИН</a>
               </li>
 
               <li className="dropdown ">
-                <a href="/contact">Contact Us</a>
+                <a href="/contact">КОНТАКТЫ</a>
               </li>
 
               <li className="dropdown ">
-                <a href="/about-as">About Us</a>
+                <a href="/about-as">О НАС</a>
               </li>
 
               <li className="dropdown ">

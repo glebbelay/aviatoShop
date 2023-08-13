@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import slider1 from "../../images/slider/slider-3.jpg";
+import slider1 from "../../images/slider/slider-1.jpg";
+import slider2 from "../../images/slider/slider-2.jpg";
+import slider3 from "../../images/slider/slider-3.jpg";
 
 import "../../plugins/slick/slick.css";
 import "../../plugins/animate/animate.css";
@@ -65,12 +67,12 @@ function Slider() {
           <div className="container">
             <div className="row">
               <div className="col-lg-8 text-center">
-                <p>PRODUCTS</p>
+                <p>KNIT LOFT</p>
                 <h1>
-                  The beauty of nature <br /> is hidden in details.
+                СВЯЗАНО <br />   С ЛЮБОВЬЮ
                 </h1>
                 <a className="btn" href="shop.html">
-                  Shop Now
+                  МАГАЗИН
                 </a>
               </div>
             </div>
@@ -78,18 +80,18 @@ function Slider() {
         </div>
         <div
           className="slider-item th-fullpage hero-area"
-          srs={slider1}
+          srs={slider2}
           alt="slider"
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-8 text-left">
-                <p>PRODUCTS</p>
+                <p>KNIT LOFT</p>
                 <h1>
-                  The beauty of nature <br /> is hidden in details.
+                  НОВАЯ КОЛЛЕКЦИЯ <br /> 01.09.2023
                 </h1>
                 <a className="btn" href="shop.html">
-                  Shop Now
+                МАГАЗИН
                 </a>
               </div>
             </div>
@@ -97,18 +99,18 @@ function Slider() {
         </div>
         <div
           className="slider-item th-fullpage hero-area"
-          srs={slider1}
+          srs={slider3}
           alt="slider"
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-8 text-right">
-                <p>PRODUCTS</p>
+                <p>KNIT LOFT</p>
                 <h1>
-                  The beauty of nature <br /> is hidden in details.
+                Медленная красота в наших изделиях,  <br /> созданных мастерами вручную.
                 </h1>
                 <a className="btn" href="shop.html">
-                  Shop Now
+                  МАГАЗИН
                 </a>
               </div>
             </div>

@@ -5,7 +5,7 @@ function TrendyProducts() {
     <div>
         <div className="row">
 			<div className="title text-center">
-				<h2>Trendy Products</h2>
+				<h2>Одежда</h2>
 			</div>
 		</div>
     </div>

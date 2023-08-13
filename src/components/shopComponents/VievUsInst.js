@@ -7,7 +7,7 @@ function VievUsInst() {
         <div className="container">
           <div className="row">
             <div className="title">
-              <h2>View us on instagram</h2>
+              <h2>найти нас в instagram</h2>
             </div>
           </div>
           <div className="row">

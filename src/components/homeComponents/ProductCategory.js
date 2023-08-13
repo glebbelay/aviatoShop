@@ -1,7 +1,7 @@
 import React from 'react'
-import category1 from "../../images/shop/category/category-1.jpg"
-import category2 from "../../images/shop/category/category-2.jpg"
-import category3 from "../../images/shop/category/category-3.jpg"
+import category1 from "../../images/shop/category/6.jpg"
+import category2 from "../../images/shop/category/7.jpg"
+import category3 from "../../images/shop/category/4.jpg"
 
 function ProductCategory() {
   return (
@@ -9,18 +9,13 @@ function ProductCategory() {
         <section className="product-category section">
         <div className="container">
             <div className="row">
-                <div className="col-md-12">
-                    <div className="title text-center">
-                        <h2>Product Category</h2>
-                    </div>
-                </div>
                 <div className="col-md-6">
                     <div className="category-box">
                         <a href="#!">
                             <img src={category1} alt="category1" />
                             <div className="content">
-                                <h3>Clothes Sales</h3>
-                                <p>Shop New Season Clothing</p>
+                                <h2> Мы использовуем натуральные материалы и уникальные узоры.</h2> 
+                                
                             </div>
                         </a>	
                     </div>
@@ -28,8 +23,8 @@ function ProductCategory() {
                         <a href="#!">
                             <img src={category2} alt="category2" />
                             <div className="content">
-                                <h3>Smart Casuals</h3>
-                                <p>Get Wide Range Selection</p>
+                                <h1><br/>Мода Вне Времени<br/></h1>
+                                <h2> Изделия из натуральных  материалов ручной работы прослужат вам долго.</h2>
                             </div>
                         </a>	
                     </div>
@@ -39,8 +34,9 @@ function ProductCategory() {
                         <a href="#!">
                             <img src={category3} alt="category3" />
                             <div className="content">
-                                <h3>Jewellery</h3>
-                                <p>Special Design Comes First</p>
+                                <h1>Изысканный Cтиль<br/></h1>
+                                <h2> Тонкая ручная работа, уникальный дизайн и натуральные волокна.</h2>
+                            
                             </div>
                         </a>	
                     </div>

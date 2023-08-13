@@ -12,7 +12,7 @@ function Header() {
             <div className="col-md-4 col-xs-12 col-sm-4">
               <div className="contact-number">
                 <i className="tf-ion-ios-telephone"></i>
-                <span>0129- 12323-123123</span>
+                <span>+7-911-813-8879</span>
               </div>
             </div>
             <div className="col-md-4 col-xs-12 col-sm-4">
@@ -32,7 +32,7 @@ function Header() {
                       strokeWidth="1"
                       fill="none"
                       fillRule="evenodd"
-                      fontSize="40"
+                      fontSize="28"
                       fontFamily="AustinBold, Austin"
                       fontWeight="bold"
                     >
@@ -43,7 +43,7 @@ function Header() {
                       >
                         <text id="AVIATO">
                           <tspan x="108.94" y="325">
-                            AVIATO
+                            KNIT LOFT
                           </tspan>
                         </text>
                       </g>
@@ -107,7 +107,7 @@ function Header() {
                     data-toggle="dropdown"
                     data-hover="dropdown"
                   >
-                    <i className="tf-ion-ios-search-strong"></i> Search
+                    <i className="tf-ion-ios-search-strong"></i> Поиск
                   </a>
                   <ul className="dropdown-menu search-dropdown">
                     <li>

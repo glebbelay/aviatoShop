@@ -15,7 +15,7 @@ function ContactUs() {
                   <div className="form-group">
                     <input
                       type="text"
-                      placeholder="Your Name"
+                      placeholder="Имя"
                       className="form-control"
                       name="name"
                       id="name"
@@ -25,7 +25,7 @@ function ContactUs() {
                   <div className="form-group">
                     <input
                       type="email"
-                      placeholder="Your Email"
+                      placeholder="Email"
                       className="form-control"
                       name="email"
                       id="email"
@@ -35,7 +35,7 @@ function ContactUs() {
                   <div className="form-group">
                     <input
                       type="text"
-                      placeholder="Subject"
+                      placeholder="Предмет"
                       className="form-control"
                       name="subject"
                       id="subject"
@@ -45,7 +45,7 @@ function ContactUs() {
                   <div className="form-group">
                     <textarea
                       rows="6"
-                      placeholder="Message"
+                      placeholder="Сообщение"
                       className="form-control"
                       name="message"
                       id="message"
@@ -65,7 +65,7 @@ function ContactUs() {
                       type="submit"
                       id="contact-submit"
                       className="btn btn-transparent"
-                      value="Submit"
+                      value="Отправить"
                     />
                   </div>
                 </form>
@@ -78,19 +78,15 @@ function ContactUs() {
                 <ul className="contact-short-info">
                   <li>
                     <i className="tf-ion-ios-home"></i>
-                    <span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+                    <span>г.Санкт-Петербург, ул.Большая Конюшенная, д.9</span>
                   </li>
                   <li>
                     <i className="tf-ion-android-phone-portrait"></i>
-                    <span>Phone: +880-31-000-000</span>
-                  </li>
-                  <li>
-                    <i className="tf-ion-android-globe"></i>
-                    <span>Fax: +880-31-000-000</span>
+                    <span>+7-911-813-8879</span>
                   </li>
                   <li>
                     <i className="tf-ion-android-mail"></i>
-                    <span>Email: hello@example.com</span>
+                    <span>Email: knitloft@mail.ru</span>
                   </li>
                 </ul>
                 <div className="social-icon">

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import product1 from "../../images/shop/products/product-1.jpg"
 
-import productImg from "../../images/shop/products/modal-product.jpg"
 
 export class product extends Component {
   render() {
@@ -20,8 +19,8 @@ export class product extends Component {
                     </div>
                     </a>
                     <div className="product-content">
-                        <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                        <p className="price">$200</p>
+                        <h4><a href="product-single.html">ДЖЕМПЕР С АЖУРНЫМИ РУКАВАМИ</a></h4>
+                        <p className="price">10500 руб.</p>
                     </div>
                 </div>
             </div>
